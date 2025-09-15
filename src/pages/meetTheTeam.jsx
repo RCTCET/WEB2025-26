@@ -41,7 +41,7 @@ const teamMembers = [
 },
 {
   id: 222,
-  name: "Rtr. Prathmesh Singh",
+  name: "Rtr. Prathamesh Singh",
   role: "Vice President",
   image: "https://res.cloudinary.com/dtc2xaeaf/image/upload/v1756701825/Rtr._Prathamesh_Singh_Vice_President_krlgue.png",
   year: "2025-2026",
@@ -611,14 +611,14 @@ const boardOfDirectors = [
     // 2025-26
   {
     id: 160,
-    name: "Rtr. Smaiha dadarkar",
+    name: "Rtr. Samiha Dadarkar",
     role: "Club Service",
     image: "https://res.cloudinary.com/dtc2xaeaf/image/upload/v1756701840/Rtr._Samiha_Dadarkar_BOD_Club_Service_api4cf.png",
     year: "2025-2026",
   },
     {
     id: 153,
-    name: "Rtr.Aditi Pawar",
+    name: "Rtr. Aaditi Pawar",
     role: "Community Service ",
     image: "https://res.cloudinary.com/dtc2xaeaf/image/upload/v1756701842/Rtr._Aditi_Pawar_Community_Service_Director_zhyzzn.png",
     year: "2025-2026",
@@ -647,7 +647,7 @@ const boardOfDirectors = [
   },
     {
     id: 163,
-    name: "Rtr.Tanmaya Deshapande",
+    name: "Rtr. Tanmaya Deshpande",
     role: "Professional Development ",
     image:
       "https://res.cloudinary.com/dtc2xaeaf/image/upload/v1756701878/Rtr._Tanmaya_Deshpande_BOD_PD_helhmx.png",
@@ -663,7 +663,7 @@ const boardOfDirectors = [
   },
     {
     id: 165,
-    name: "Rtr.Siddarth Bajpai",
+    name: "Rtr. Siddharth Bajpai",
     role: "International Service",
     image:
       "https://res.cloudinary.com/dtc2xaeaf/image/upload/v1756701843/Rtr._Siddharth_Bajpayee_BOD_IS_qqwtff.png",
@@ -671,14 +671,14 @@ const boardOfDirectors = [
   },
   {
     id: 156,
-    name: "Rtr.Saisha Batulwar",
+    name: "Rtr. Saisha Batulwar",
     role: "Shiksha",
     image: "https://res.cloudinary.com/dtc2xaeaf/image/upload/v1756701864/Rtr._Saisha_Batulwar_BOD_Shiksha_bozekp.png",
     year: "2025-2026",
   },
   {
     id: 166,
-    name: "Rtr .Tanishka Jakhmola",
+    name: "Rtr . Tanishka Jakhmola",
     role: "Shiksha & Jt.Club Service",
     image: "https://res.cloudinary.com/dtc2xaeaf/image/upload/v1756701818/Rtr._Tanishka_Jakhmola_BOD_Shiksha_o3pbx8.png",
     year: "2025-2026",
@@ -699,14 +699,14 @@ const boardOfDirectors = [
   },
   {
     id: 168,
-    name: "Rtr. Ashrit Bhang",
+    name: "Rtr. Ashrit Bang",
     role: "Entrepreneurship Development ",
     image: "https://res.cloudinary.com/dtc2xaeaf/image/upload/v1756701859/Rtr._Ashrit_Bang_BOD_ED_xozjip.png",
     year: "2025-2026",
   },
   {
     id: 210,
-    name: "Rtr. Ashrit Bhang",
+    name: "Rtr. Nisha Singh",
     role: "Entrepreneurship Development ",
     image: "https://res.cloudinary.com/dtc2xaeaf/image/upload/v1756701849/Rtr._Nisha_Singh_BOD_ED_h4dl36.png",
     year: "2025-2026",
@@ -784,7 +784,7 @@ const boardOfDirectors = [
   },
   {
     id: 179,
-    name: "Rtr. Siddarth Gupta",
+    name: "Rtr. Siddharth Gupta",
     role: "Public Relations",
     image: "https://res.cloudinary.com/dtc2xaeaf/image/upload/v1756701884/Rtr._Siddharth_Gupta_BOD_PR_l0rkrx.png",
     year: "2025-2026",
@@ -1735,4 +1735,5 @@ const TeamPage = () => {
 }
 
 export default TeamPage
+
 
