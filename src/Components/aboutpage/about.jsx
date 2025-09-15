@@ -23,7 +23,7 @@ const AboutSection = () => {
     <div className="relative bg-white dark:bg-stone-900">
       {/* Background Image */}
       <LazyLoadImage
-        src="https://www.rc.tcetmumbai.in/About%20us/Baseline%20grid%20bg.webp"
+        src="https://res.cloudinary.com/dtc2xaeaf/image/upload/v1756746747/Baseline_grid_bg_loaafk.webp"
         alt="Baseline Grid Background"
         className="absolute inset-0 w-full h-full object-cover z-0 opacity-100 dark:opacity-30"
       />
@@ -32,7 +32,7 @@ const AboutSection = () => {
       <div className="relative z-10 w-full h-full flex flex-col items-center justify-center">
         {/* Top Logo */}
         <LazyLoadImage
-          src="https://www.rc.tcetmumbai.in/About%20us/About%20us.webp"
+          src="https://res.cloudinary.com/dtc2xaeaf/image/upload/v1757941741/About_Us_cyojzm.webp"
           alt="About Us Logo"
           className="w-[20vw] mt-14 mb-6"
         />
@@ -41,7 +41,7 @@ const AboutSection = () => {
         <div className="w-full flex flex-col md:flex-row items-center justify-center gap-6 px-4">
           {/* Left-most */}
 <LazyLoadImage
-  src="https://www.rc.tcetmumbai.in/About%20us/download%201.webp"
+  src="https://res.cloudinary.com/dtc2xaeaf/image/upload/v1757942003/image_21_djjnxp.webp"
   alt="Side Logo Left"
   className="hidden md:block w-[15vw] h-auto flex-shrink-0"
 />
@@ -49,12 +49,12 @@ const AboutSection = () => {
 {/* Left stack */}
 <div className="hidden md:flex flex-row md:flex-col items-center gap-6">
   <LazyLoadImage
-    src="https://www.rc.tcetmumbai.in/About%20us/download%202.webp"
+    src="https://res.cloudinary.com/dtc2xaeaf/image/upload/v1757942003/image_16_bfxga6.webp"
     alt="Side Logo Left 2"
     className="w-[22vw] flex-shrink-0 h-[40%]"
   />
   <LazyLoadImage
-    src="https://www.rc.tcetmumbai.in/About%20us/image%2013.webp"
+    src="https://res.cloudinary.com/dtc2xaeaf/image/upload/v1757942004/image_19_atmes5.webp"
     alt="Side Logo Left 3"
     className="w-[22vw] flex-shrink-0 h-[40%]"
   />
@@ -72,12 +72,12 @@ const AboutSection = () => {
 {/* Right stack */}
 <div className="hidden md:flex flex-row md:flex-col items-center gap-6">
   <LazyLoadImage
-    src="https://www.rc.tcetmumbai.in/About%20us/image%2013.webp"
+    src="https://res.cloudinary.com/dtc2xaeaf/image/upload/v1757942004/image_18_sxzx2e.webp"
     alt="Side Logo Right 2"
     className="w-[22vw] h-[40%] flex-shrink-0"
   />
   <LazyLoadImage
-    src="https://www.rc.tcetmumbai.in/About%20us/people-cliff-giving-himself-handshake_1160-629%201.webp"
+    src="https://res.cloudinary.com/dtc2xaeaf/image/upload/v1757942002/17_ktizbs.webp"
     alt="Handshake Graphic"
     className="w-[22vw] max-h-[30%] flex-shrink-0"
   />
@@ -85,7 +85,7 @@ const AboutSection = () => {
 
 {/* Right-most */}
 <LazyLoadImage
-  src="https://www.rc.tcetmumbai.in/About%20us/image%2014.webp"
+  src="https://res.cloudinary.com/dtc2xaeaf/image/upload/v1757942004/image_20_lnce80.webp"
   alt="Side Logo Right"
   className="hidden md:block w-[15vw] h-auto flex-shrink-0"
 />

@@ -29,11 +29,11 @@ function ImgSet() {
     return(
         <>
             <MomentBox image="https://res.cloudinary.com/dtc2xaeaf/image/upload/f_auto,q_auto/v1756762284/IMG_0449_xpm5xd.heic" alt="img11"/>
-            <MomentBox image="https://res.cloudinary.com/dtc2xaeaf/image/upload/v1756785690/Copy_of_IMG_1579_1_cllu8u.jpg" alt="img1"/>
-            <MomentBox image="https://res.cloudinary.com/dtc2xaeaf/image/upload/v1756974490/_DSC7394_apr72u.jpg" alt="img3"/>
-            <MomentBox image="https://res.cloudinary.com/dtc2xaeaf/image/upload/v1756974506/IMG_8196_m0x3cw.jpg" alt="img4"/>
-            <MomentBox image="https://res.cloudinary.com/dtc2xaeaf/image/upload/f_auto,q_auto/v1756974538/IMG_1943_bswadu.heic" alt="img6"/>
-            <MomentBox image="https://res.cloudinary.com/dtc2xaeaf/image/upload/v1756974878/IMG_3102_kjthpm.jpg" alt="img7"/>
+            <MomentBox image="https://res.cloudinary.com/dtc2xaeaf/image/upload/v1757948233/Copy_of_IMG_1579_1_cllu8u_ydhqiq.jpg" alt="img1"/>
+            <MomentBox image="https://res.cloudinary.com/dtc2xaeaf/image/upload/v1757948233/_DSC7394_apr72u_zi0rg3.jpg" alt="img3"/>
+            <MomentBox image="https://res.cloudinary.com/dtc2xaeaf/image/upload/v1757948234/IMG_8196_m0x3cw_sfxyzn.jpg" alt="img4"/>
+            {/* <MomentBox image="https://res.cloudinary.com/dtc2xaeaf/image/upload/f_auto,q_auto/v1756974538/IMG_1943_bswadu.heic" alt="img6"/> */}
+            <MomentBox image="https://res.cloudinary.com/dtc2xaeaf/image/upload/v1757948232/IMG_3102_kjthpm_itv9ox.jpg" alt="img7"/>
             <MomentBox image="https://res.cloudinary.com/dtc2xaeaf/image/upload/v1756974888/IMG-20250617-WA0034_qeztwp.jpg" alt="img8"/>
             <MomentBox image="https://res.cloudinary.com/dtc2xaeaf/image/upload/v1756974860/IMG20250320115025_afbtrp.jpg" alt="img10"/>
             

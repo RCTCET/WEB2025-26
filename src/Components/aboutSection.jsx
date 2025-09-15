@@ -32,7 +32,7 @@ const Anantya = () => {
             <div className="lg:flex-shrink-0 lg:w-1/3 md:w-full">
               <div className="w-full h-full rounded-lg overflow-hidden">
                 <video autoPlay muted loop
-                  src="https://res.cloudinary.com/dtc2xaeaf/video/upload/v1756700557/flame_am46ja.mp4"             
+                  src="https://res.cloudinary.com/dtc2xaeaf/video/upload/v1757944468/freecompress-flame_am46ja_czoump.mp4"             
                   type="video/mp4"
                   className="lg:w-full lg:h-[300px] md:h-[200px] w-full h-[300px] object-cover">
                 </video>

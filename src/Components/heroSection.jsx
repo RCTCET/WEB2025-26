@@ -5,13 +5,13 @@ import { motion } from "framer-motion";
 
 export default function RotaractClubLayout() {
   const images = [
-    { title: "Jashn-E- 3141", src: "https://res.cloudinary.com/dtc2xaeaf/image/upload/v1757084449/Copy_of_IMG_4190_ayzbil_lplixh.png" },
-    { title: "Visual Velocity 2.0", src: "https://res.cloudinary.com/dtc2xaeaf/image/upload/v1757084443/IMG_7581_xlm8wx_lnj4jq.png" },
-    { title: "Aara night 25-26", src: "https://res.cloudinary.com/dtc2xaeaf/image/upload/v1757084443/IMG_2044_h3kady_vbe8iv.png" },
-    { title: "Rotaract Stay Out", src: "https://res.cloudinary.com/dtc2xaeaf/image/upload/v1756761949/Copy_of_IMG_0420_wdpng4.jpg" },
-    { title: "Monsoon Match Day 2.0", src: "https://res.cloudinary.com/dtc2xaeaf/image/upload/v1756761965/Copy_of_IMG_1446_1_zwesqm.jpg" },
-    { title: "Kalakriti 2.0", src: "https://res.cloudinary.com/dtc2xaeaf/image/upload/v1756761959/Copy_of_IMG20250825165248_kvd3wk.jpg" },
-    { title: "Panache", src: "https://res.cloudinary.com/dtc2xaeaf/image/upload/v1756761623/PXL_20250718_060353784_i7fthn.jpg" },
+    { title: "Jashn-E- 3141", src: "https://res.cloudinary.com/dtc2xaeaf/image/upload/v1757943827/Copy_of_IMG_4190_ayzbil_lplixh_rd534g.webp" },
+    { title: "Visual Velocity 2.0", src: "https://res.cloudinary.com/dtc2xaeaf/image/upload/v1757943830/IMG_7581_xlm8wx_lnj4jq_ufiz7c.webp" },
+    { title: "Aara night 25-26", src: "https://res.cloudinary.com/dtc2xaeaf/image/upload/v1757943837/IMG_2044_h3kady_vbe8iv_s4bl9w.webp" },
+    { title: "Rotaract's Day Out", src: "https://res.cloudinary.com/dtc2xaeaf/image/upload/v1757943940/Copy_of_IMG_0420_wdpng4_gpbtct.jpg" },
+    { title: "Monsoon Match Day 2.0", src: "https://res.cloudinary.com/dtc2xaeaf/image/upload/v1757943826/Copy_of_IMG_1446_1_zwesqm_g41sxi.jpg" },
+    { title: "Kalakriti 2.0", src: "https://res.cloudinary.com/dtc2xaeaf/image/upload/v1757943987/Copy_of_IMG20250825165248_kvd3wk_w6imtn.jpg" },
+    { title: "Panache", src: "https://res.cloudinary.com/dtc2xaeaf/image/upload/v1757943825/PXL_20250718_060353784_i7fthn_jxd25r.jpg" },
   ];
 
   const [index, setIndex] = useState(0);

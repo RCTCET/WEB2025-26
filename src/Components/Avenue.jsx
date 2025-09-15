@@ -134,7 +134,7 @@ const allinfo = [
   },
   {
     title: "Marketing",
-    img: "https://res.cloudinary.com/dtc2xaeaf/image/upload/v1756701724/International_Service_knpfwk.png",
+    img: "https://res.cloudinary.com/dtc2xaeaf/image/upload/v1757945662/Untitled_design_ocbq9f.png",
     description:
       "Engages in international projects, promotes global understanding, and connects with clubs worldwide.",
   }
