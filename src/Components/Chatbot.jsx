@@ -1,8 +1,10 @@
+import axios from "axios";
 import { useState, useEffect } from "react";
 
 export const Chatbot = () => {
   const [isChatOpen, setChatOpen] = useState(false);
   const [showHint, setShowHint] = useState(true);
+  
 
   const showdata = ["Hi 👋 I’m ROTO — your RC-TCET assistant!"];
 
@@ -16,6 +18,13 @@ export const Chatbot = () => {
       return () => clearTimeout(timer);
     }
   }, [isChatOpen]);
+
+
+  
+
+
+
+        
 
   return (
     <>

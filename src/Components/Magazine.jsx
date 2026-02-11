@@ -1,99 +1,93 @@
 export const Magazine = () => {
-
   const magazines = [
     {
       id: 1,
       title: "ROTOVISION 2024",
       tagline: "Stories of Service, Leadership & Fellowship",
-      subtitle: "The Annual Journal of Rotaract Club of TCET",
-      cover: "https://res.cloudinary.com/dtlessn0g/image/upload/v1770408172/Valerie_6_1_20260122_230656_0000_taiwh7.png",
-      link: "https://heyzine.com/flip-book/4b3c042686.htmlValerie",
-      year: "2024"
+      cover:
+        "https://res.cloudinary.com/dtlessn0g/image/upload/v1770408172/Valerie_6_1_20260122_230656_0000_taiwh7.png",
+      link: "https://heyzine.com/flip-book/4b3c042686.html",
+      year: "2024",
     },
     {
       id: 2,
       title: "IMPACT EDITION",
       tagline: "Ideas That Moved Communities",
-      subtitle: "A Special Curated Issue",
-      cover: "https://res.cloudinary.com/dtlessn0g/image/upload/v1770408016/Ixlipse_25-26_20260122_230410_0000_djrwqo.png",
+      cover:
+        "https://res.cloudinary.com/dtlessn0g/image/upload/v1770408016/Ixlipse_25-26_20260122_230410_0000_djrwqo.png",
       link: "#",
-      year: "2025"
-    }
+      year: "2025",
+    },
+    {
+      id: 3,
+      title: "ROTOVISION 2024",
+      tagline: "Stories of Service, Leadership & Fellowship",
+      cover:
+        "https://res.cloudinary.com/dtlessn0g/image/upload/v1770822270/IMG-20260211-WA0022.jpg_jnpg4m.jpg",
+      link: "https://heyzine.com/flip-book/4b3c042686.html",
+      year: "2024",
+    },
   ];
 
   return (
-    <section className="py-20 px-6 bg-[#faf7f2]">
-
+    <section className="py-20 px-6 bg-[#faf7f2] dark:bg-[#111111] transition-colors duration-500">
       
       <div className="text-center mb-16">
-        <h1 className="text-4xl md:text-5xl font-bold text-[#F97316] tracking-tight">
+        <h1 className="text-4xl md:text-5xl font-bold text-[#F97316] dark:text-orange-400">
           The Rotaract Library
         </h1>
-        <p className="mt-4 max-w-2xl mx-auto text-gray-600 leading-relaxed">
-          A carefully curated collection of our official journals —  
-          chronicling service, leadership, fellowship, and the impact we create together.
+        <p className="mt-4 max-w-2xl mx-auto text-gray-600 dark:text-gray-400">
+          A curated archive of our journals and stories.
         </p>
       </div>
 
-   
-      <div
-        className={`
-          grid gap-12
-          sm:grid-cols-2
-          ${magazines.length === 2 ? "lg:grid-cols-2" : "lg:grid-cols-3"}
-          max-w-6xl mx-auto
-          justify-items-center
-        `}
-      >
+      <div className="grid gap-12 sm:grid-cols-2 lg:grid-cols-3 max-w-6xl mx-auto justify-items-center">
         {magazines.map((mag) => (
           <div
             key={mag.id}
             className="
-              bg-white
+              group
+              w-full max-w-[300px]
+              bg-white dark:bg-[#1b1b1b]
               rounded-2xl
-              shadow-[0_20px_50px_-20px_rgba(0,0,0,0.2)]
-              overflow-hidden
-              transition
-              hover:shadow-[0_30px_70px_-25px_rgba(234,88,12,0.4)]
-              w-[340px]
+              shadow-md dark:shadow-lg
+              hover:shadow-xl
+              transition-all duration-500
             "
           >
-
-          
-            <div className="relative h-[260px]">
-
-             
+            
+            <div className="relative aspect-[3/4] p-4 rounded-[20px] overflow-hidden bg-white dark:bg-[#1b1b1b]">
               <img
                 src={mag.cover}
                 alt={mag.title}
-                className="w-full h-full object-top"
+                className="
+                  w-full h-full
+                  object-contain
+                  rounded-[20px]
+                  transition-transform duration-500
+                  group-hover:scale-105
+                "
               />
-
-          
-              <div className="absolute inset-0 bg-gradient-to-b from-black/10 via-black/20 to-black/40" />
-
-             
-              <div className="absolute inset-0 p-6 flex flex-col justify-between">
-                
-              
-
-               
-
-              </div>
             </div>
 
-            <div className="p-5 flex justify-between items-center">
-              <span className="text-xs text-gray-500 uppercase tracking-widest">
-                Digital Journal
+            <div className="px-4 pb-4 text-center">
+              <span className="text-xs text-gray-500 dark:text-gray-400 tracking-widest">
+                {mag.year}
               </span>
+
+              <h2 className="mt-1 text-sm font-semibold text-gray-800 dark:text-gray-200">
+                {mag.title}
+              </h2>
+
+              <p className="text-xs text-gray-500 dark:text-gray-400 mt-1">
+                {mag.tagline}
+              </p>
 
               <a
                 href={mag.link}
-                className="
-                  text-orange-600
-                  text-sm font-medium
-                  hover:underline
-                "
+                target="_blank"
+                rel="noreferrer"
+                className="inline-block mt-3 text-xs font-medium text-orange-600 dark:text-orange-400 hover:underline"
               >
                 Open Volume →
               </a>
