@@ -15,7 +15,7 @@ export const Magazine = () => {
       tagline: "Ideas That Moved Communities",
       cover:
         "https://res.cloudinary.com/dtlessn0g/image/upload/v1770408016/Ixlipse_25-26_20260122_230410_0000_djrwqo.png",
-      link: "#",
+      link: "https://heyzine.com/flip-book/e65c2c32d9.html",
       year: "2025",
     },
     {
@@ -24,7 +24,7 @@ export const Magazine = () => {
       tagline: "Stories of Service, Leadership & Fellowship",
       cover:
         "https://res.cloudinary.com/dtlessn0g/image/upload/v1770822270/IMG-20260211-WA0022.jpg_jnpg4m.jpg",
-      link: "https://heyzine.com/flip-book/4b3c042686.html",
+      link: "https://heyzine.com/flip-book/9a613c4d89.html",
       year: "2024",
     },
   ];
