@@ -82,7 +82,7 @@ function Header() {
   ];
 
   return (
-    <header className="bg-white dark:bg-[#1A1612] w-full py-4 shadow-lg dark:shadow-black/30">
+    <header className="bg-white dark:bg-[#1A1612] w-full py-4 shadow-lg dark:shadow-black/30 sticky top-0 z-50">
       <div className="max-w-screen-xl mx-auto flex justify-between items-center px-8">
         {/* Logo */}
         <div className="flex items-center">
