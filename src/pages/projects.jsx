@@ -326,21 +326,23 @@ function Projects() {
           image:
             "https://res.cloudinary.com/dtc2xaeaf/image/upload/v1770731920/PXL_20250926_053602340_qemhs1.jpg",
           title: "Techworld",
-          objective: "",
-          impact: ["", ""],
+          objective: "To bridge the gap between technology and underprivileged students by providing hands-on STEM exposure through interactive and experiential learning.",
+          impact: [" Introduced hundreds of students to practical concepts in Electricals, AR/VR, Renewable Energy, and Space Science.", "Sparked scientific curiosity, innovation, and awareness of future technological careers.", "Made advanced technology accessible to underprivileged learners, turning classroom theory into real-life experience."],
         },
         {
           image:
             "https://res.cloudinary.com/dtc2xaeaf/image/upload/v1770731886/PXL_20251111_054004855_1_1_lax7mg.jpg",
           title: "Career Compass - Career Counselling",
-          objective: "",
-          impact: ["", ""],
+          objective: "To guide young students in exploring their interests and strengths while inspiring them to dream big about their future careers.",
+          impact: ["Built self-confidence and self-awareness among students of grades 3–5.", "Provided clarity about different career paths in a simple and friendly manner.", "Created a supportive space where children felt motivated, heard, and inspired."],
         },
         {
-          image: "",
+          image:
+            "https://res.cloudinary.com/dtc2xaeaf/image/upload/v1771004109/IMG20251222110406_flcj2s.jpg",
           title: "Robotics Workshop",
-          objective: "",
-          impact: ["", ""],
+          objective: "To introduce school students to practical robotics through hands-on learning, fostering early interest in technology and innovation.",
+          impact: ["Enhanced technical understanding, logical thinking, and problem-solving skills among 116 students.", "Strengthened teamwork and confidence through group-based assembly and competition.", "Inspired curiosity toward emerging technologies and future career pathways in robotics."],
+          drive: "https://drive.google.com/drive/folders/1_z5sLLRSPPVRc85ysyvXO9TEgOmXpl8W?usp=drive_link"
         },
       ],
     },
