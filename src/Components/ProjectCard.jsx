@@ -32,7 +32,9 @@ function ProjectCard({ imageUrl, title, objective, impact }) {
                 <li key={i}>{point}</li>
               ))}
             </ul>
+           
           </div>
+           
         </div>
       </div>
     </div>

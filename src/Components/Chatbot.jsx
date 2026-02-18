@@ -25,14 +25,24 @@ export const Chatbot = () => {
     []
   );
 
+  // useEffect(() => {
+  //   if (!isChatOpen) {
+  //     const timer = setInterval(() => {
+  //       setShowHint(false);
+  //     }, 5000);
+  //     return () => clearInterval(timer);
+  //   }
+  // }, [isChatOpen]);
+
   useEffect(() => {
-    if (!isChatOpen) {
-      const timer = setTimeout(() => {
-        setShowHint(false);
-      }, 5000);
-      return () => clearTimeout(timer);
-    }
-  }, [isChatOpen]);
+  if (!isChatOpen) {
+    const timer = setInterval(() => {
+      setShowHint(prev => !prev);
+    }, 5000);
+
+    return () => clearInterval(timer);
+  }
+}, [isChatOpen]);
 
   useEffect(() => {
     messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });

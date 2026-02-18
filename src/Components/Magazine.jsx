@@ -21,7 +21,7 @@ const magazines = [
   {
     id: 3,
     title: "F1 More than a Race",
-    tagline: "Stories of Service, Leadership & Fellowship",
+    tagline: "Pressure Pace, Pit Stops",
     cover:
       "https://res.cloudinary.com/dtc2xaeaf/image/upload/f_auto,q_auto/v1771004388/IMG-20260211-WA0022.jpg_jnpg4m_1_dvfouh.jpg",
     link: "https://heyzine.com/flip-book/9a613c4d89.html",

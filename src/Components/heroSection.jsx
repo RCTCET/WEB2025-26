@@ -73,7 +73,7 @@ export default function RotaractClubLayout() {
 
       <div className="absolute inset-0 bg-black/60 z-10" />
 
-      <div className="relative z-20 flex flex-col lg:flex-row h-full w-full items-center justify-center px-6 gap-8">
+      <div className="relative z-20 flex flex-col lg:flex-row h-full w-full items-center justify-center mt-[-50px] md:mt-0 px-6 gap-8">
 
         {/* Left Section */}
         <div className="w-full lg:w-1/3 flex flex-col items-center justify-center text-center">
@@ -91,7 +91,7 @@ export default function RotaractClubLayout() {
           </h1>
         </div>
 
-        {/* Swiper */}
+       
         <div className="w-full lg:w-2/3 relative z-30">
           <Swiper
             modules={[Autoplay, Navigation]}

@@ -16,6 +16,7 @@ function Projects() {
             "Engaged 80+ members in games like Dodgeball, Footloose, and Cricket — unforgettable moments of joy.",
             "Strengthened friendships and club spirit; members left motivated and connected.",
           ],
+          drivelink:"https://drive.google.com/drive/folders/11Z2PI6SmMLlqefYQUIPSpZZmnWgOn7pI?usp=drive_link"
         },
         {
           image:
@@ -27,6 +28,7 @@ function Projects() {
             "Created a warm emotional sanctuary that helped members unwind, connect, and feel at home within the club.",
             "Encouraged spontaneous participation, collective sing-alongs, and strong fellowship, leaving members refreshed, uplifted, and eager for more such sessions.",
           ],
+          drivelink:"https://drive.google.com/drive/folders/1GseJuCSy7ztMh-AtyYYvj3iykzWAwBl4?usp=sharing"
         },
         {
           image:
@@ -38,6 +40,7 @@ function Projects() {
             "Brought both clubs closer through fun, cultural activities and shared celebrations.",
             "Created lasting memories, strong bonding, and a warm sense of togetherness among members.",
           ],
+          drivelink:"https://drive.google.com/drive/folders/1rvlKLkL7cqV6TpKAl3TbAnG-7T79nWnx?usp=sharing"
         },
         {
           image:
@@ -49,6 +52,7 @@ function Projects() {
             "Helped members, especially first-years, feel comfortable, included, and connected within the club",
             "Created stress-free bonding, turning strangers into friends and strengthening the spirit of togetherness and Rotaract family.",
           ],
+          drivelink:"https://drive.google.com/drive/folders/11Z2PI6SmMLlqefYQUIPSpZZmnWgOn7pI?usp=drive_link"
         },
         {
           image:
@@ -60,6 +64,7 @@ function Projects() {
             "Enhanced team bonding, resilience, and mutual support among members.",
             "Instilled a strong sense of achievement, adventure, and responsibility towards nature.",
           ],
+          drivelink:"https://drive.google.com/drive/folders/17TBjhNcW3bcewmj6wcNreK4qBAqDpgCb?usp=drive_link"
         },
         {
           image:
@@ -71,6 +76,7 @@ function Projects() {
             "Provided a refreshing stress-buster that strengthened bonding and teamwork among members.",
             "Created shared excitement, healthy competition, and lasting memories, reinforcing unity and inclusiveness within the club.",
           ],
+          drivelink:"https://drive.google.com/drive/folders/1ml8JXIhLsshqF9WG6-td5h-EzOEpb4LB?usp=drive_link"
         },
       ],
     },
@@ -88,6 +94,8 @@ function Projects() {
             "Benefited 120+ participants.",
             "Promoted sustainable celebrations.",
           ],
+          drivelink:"https://drive.google.com/drive/folders/16BbWtuWgIzF63_Kq2m58kaNzgC1sOqzb?usp=drive_link"
+          
         },
         {
           image:
@@ -98,6 +106,7 @@ function Projects() {
             "Collected 100+ items.",
             "Inspired students and faculty to give back.",
           ],
+          drivelink:"https://drive.google.com/drive/folders/1ZxHakzxh5E2e4aNGfHk3kW5zyFs2PB--?usp=drive_link"
         },
         {
           image:
@@ -105,6 +114,7 @@ function Projects() {
           title: "Tails and Tales",
           objective: "Awareness session on animal communication.",
           impact: ["Engaged 100+ students.", "Built empathy for animals."],
+          drivelink:"https://drive.google.com/drive/folders/1TEcpp0z4yWDDVUk1Qp-jeeIEityMY8jT?usp=drive_link"
         },
         {
           image:
@@ -116,6 +126,7 @@ function Projects() {
             "Brought genuine joy, smiles, and festive warmth to underprivileged children through shared activities and love.",
             "Strengthened the spirit of compassion, service, and meaningful celebration among Rotaractors.",
           ],
+          drivelink:"https://drive.google.com/file/d/1PPMZpP-xgkRu3mD5szoG7dlJnkRHo8vc/view?usp=drive_link"
         },
         {
           image:
@@ -127,6 +138,7 @@ function Projects() {
             "Promoted mental health awareness and emotional well-being among participants.",
             "Encouraged open conversations, reduced stigma, and fostered a supportive environment.",
           ],
+          drivelink:"https://drive.google.com/drive/folders/1LczSNDbR42PyxofdTHluFyKUeFTrUmct?usp=drive_link"
         },
         {
           image:
@@ -138,6 +150,7 @@ function Projects() {
             "Brought smiles and happiness to 75+ children through a joyful Christmas celebration.",
             "Created lasting memories while strengthening the spirit of compassion and togetherness.",
           ],
+          drivelink:"https://drive.google.com/drive/folders/1kveZcBlPhFavtLeUx4E0fpigUErcF-x7?usp=drive_link"
         },
       ],
     },
@@ -155,6 +168,7 @@ function Projects() {
             "Covered diverse skills including solar robotics, Arduino, photography, Tableau, and breadboard circuits, along with engaging quiz contests.",
             "Concluded with a reel-making competition and prize distribution, leaving students motivated, skilled, and inspired to keep exploring.",
           ],
+          drivelink:"https://drive.google.com/drive/folders/13OxyPj3HyGrIOhEGq0-XbU7NxlxP7sNB?usp=drive_link"
         },
         {
           image:
@@ -166,6 +180,7 @@ function Projects() {
             "Engaged 1000+ students through interactive sessions on communication, AI, and LinkedIn readiness.",
             "Boosted confidence, practical awareness, and clarity toward academic and professional growth.",
           ],
+          drivelink:"https://drive.google.com/drive/folders/1dCK4Et5-OMNJ0fX03Mwh0qUYUqL0uxkV?usp=drive_link"
         },
         {
           image:
@@ -177,6 +192,7 @@ function Projects() {
             "Engaged 200+ participants in a five-day festive coding challenge across multiple programming languages.",
             "Improved logical thinking, debugging skills, and enthusiasm for learning through a unique mix of culture and technology",
           ],
+          drivelink:"https://drive.google.com/drive/folders/152_ypUm78Dc0b0Q89Vt0KCTOMKAsSLjl?usp=drive_link"
         },
         {
           image:
@@ -188,6 +204,7 @@ function Projects() {
             "Equipped students with practical career-readiness skills, including LinkedIn optimisation, resume building, and ATS awareness.",
             "Boosted confidence and clarity by helping participants build a strong professional identity aligned with industry expectations.",
           ],
+          drivelink:"https://drive.google.com/drive/folders/19sL96mkUriZ17Tc5Sm5x7Sh6EYLEFCrB?usp=drive_link"
         },
       ],
     },
@@ -205,6 +222,7 @@ function Projects() {
             "Encouraged participants to think critically about real-world issues, linking numbers with stories of people and nations.",
             "Sparked cultural curiosity, empathy, and awareness, leaving students more mindful of global diversity and responsibility.",
           ],
+          drivelink:"https://drive.google.com/drive/folders/1ZeyIWJcEXmVLnLjM76YDQCxf4mqO1kvQ?usp=drive_link"
         },
         {
           image:
@@ -216,20 +234,10 @@ function Projects() {
             "Connected 50+ Rotaract and Interact clubs from multiple countries through cultural exchange.",
             "Strengthened international bonds and fostered appreciation for global diversity and harmony.",
           ],
+          drivelink:"https://drive.google.com/drive/folders/1myUtd4ACrE96StZ4paX6UZaEKM49vEdJ?usp=drive_link"
         },
         {
-          image:
-            "https://res.cloudinary.com/dtc2xaeaf/image/upload/v1770732225/IMG_6552_jpywgk.webp",
-          title: "CODEX – Codewali Diwali",
-          objective:
-            "Rotaract Club of TCET organised CODEX – Codewali Diwali to make coding fun and festive by blending Diwali traditions with logic-based challenges, encouraging creativity, learning, and consistent skill development among members.",
-          impact: [
-            "Engaged 200+ participants in a five-day festive coding challenge across multiple programming languages.",
-            "Improved logical thinking, debugging skills, and enthusiasm for learning through a unique mix of culture and technology",
-          ],
-        },
-        {
-          image: "",
+          image: "https://res.cloudinary.com/dtc2xaeaf/image/upload/v1771400868/IMG_20260216_121251_llyxwy.jpg",
           title: "Beyond Words",
           objective:
             "Rotaract Club of TCET organised Beyond Words to promote inclusivity and empathy by introducing participants to basic Sign Language and highlighting the importance of accessible communication with the Deaf community.",
@@ -237,6 +245,7 @@ function Projects() {
             "Created awareness and empathy through interactive, non-verbal activities.",
             "Equipped participants with basic Sign Language skills, fostering inclusivity and understanding",
           ],
+          drivelink:"https://drive.google.com/drive/folders/1xDqzSjsJH2-2K5Z5ZsMuWJ9OYcJXhHSl?usp=drive_link"
         },
         {
           image:
@@ -248,6 +257,7 @@ function Projects() {
             "Enhanced international awareness through knowledge, strategy, and creative activities.",
             "Strengthened inter-club bonding, teamwork, and decision-making skills among participants.",
           ],
+          drivelink:"https://drive.google.com/drive/folders/1VdyfM53gdTztlVtVhyBW3tFqiYBpV7Q8?usp=drive_link"
         },
         {
           image:
@@ -259,6 +269,7 @@ function Projects() {
             "Enhanced understanding of aviation concepts through interactive learning and discussion.",
             "Fostered emotional connection, creativity, and bonding by encouraging members to share stories, dreams, and reflections on flying.",
           ],
+          drivelink:"https://drive.google.com/drive/folders/1HM8vtNGOhOXB_4TZ8xp3rGaTgQofy0PW?usp=drive_link"
         },
       ],
     },
@@ -276,6 +287,7 @@ function Projects() {
             "Boosted creative confidence, wit, and imaginative thinking through interactive challenges.",
             "Encouraged participation, self-expression, and valuable insights into members’ perspectives and aspirations.",
           ],
+          drivelink:"https://drive.google.com/drive/folders/1iFHWYmmJgBgufI2EElDSaH9JKaoit_z6?usp=drive_link"
         },
         {
           image:
@@ -287,6 +299,7 @@ function Projects() {
             "Encouraged creativity and reporting skills among members.",
             "Strengthened editorial engagement and club communication.",
           ],
+          drivelink:"https://drive.google.com/drive/folders/1ESKiXLHetFk6TaSMoD6aiak-n7KJQuH0?usp=drive_link"
         },
       ],
     },
@@ -304,6 +317,7 @@ function Projects() {
             "Strengthened community relations and cultural awareness through on-ground engagement",
             "Enhanced the club’s public presence while fostering service, unity, and team bonding.",
           ],
+          drivelink:"https://drive.google.com/drive/folders/1qKI9VHCMhOeteshGPiBU68cJRdaUNdtk?usp=drive_link"
         },
         {
           image:
@@ -315,6 +329,7 @@ function Projects() {
             "Helped first-year students clearly understand Rotaract’s vision, opportunities, and culture.",
             "Built early confidence, curiosity, and a strong sense of belonging among new students.",
           ],
+          drivelink:"https://drive.google.com/drive/folders/1YBPcxWFlvhTHxBKwyVBV-uoyhkPjhm7R?usp=drive_link"
         },
       ],
     },
@@ -328,6 +343,7 @@ function Projects() {
           title: "Techworld",
           objective: "To bridge the gap between technology and underprivileged students by providing hands-on STEM exposure through interactive and experiential learning.",
           impact: [" Introduced hundreds of students to practical concepts in Electricals, AR/VR, Renewable Energy, and Space Science.", "Sparked scientific curiosity, innovation, and awareness of future technological careers.", "Made advanced technology accessible to underprivileged learners, turning classroom theory into real-life experience."],
+       drivelink:"https://drive.google.com/drive/folders/1KnuZDiLAX9pJ3vFKjfkcTDGaVeMcdlzc?usp=drive_link"
         },
         {
           image:
@@ -335,14 +351,15 @@ function Projects() {
           title: "Career Compass - Career Counselling",
           objective: "To guide young students in exploring their interests and strengths while inspiring them to dream big about their future careers.",
           impact: ["Built self-confidence and self-awareness among students of grades 3–5.", "Provided clarity about different career paths in a simple and friendly manner.", "Created a supportive space where children felt motivated, heard, and inspired."],
+            drivelink:"https://drive.google.com/drive/folders/1wKJ8kzJ_8ODCAAG075Q9OTutszlawYPi?usp=drive_link"
         },
         {
           image:
             "https://res.cloudinary.com/dtc2xaeaf/image/upload/v1771004109/IMG20251222110406_flcj2s.jpg",
-          title: "Robotics Workshop",
+          title: "Robotics Revolution",
           objective: "To introduce school students to practical robotics through hands-on learning, fostering early interest in technology and innovation.",
           impact: ["Enhanced technical understanding, logical thinking, and problem-solving skills among 116 students.", "Strengthened teamwork and confidence through group-based assembly and competition.", "Inspired curiosity toward emerging technologies and future career pathways in robotics."],
-          drive: "https://drive.google.com/drive/folders/1_z5sLLRSPPVRc85ysyvXO9TEgOmXpl8W?usp=drive_link"
+          drivelink: "https://drive.google.com/drive/folders/1_z5sLLRSPPVRc85ysyvXO9TEgOmXpl8W?usp=drive_link"
         },
       ],
     },
@@ -360,6 +377,7 @@ function Projects() {
             "Engaged 156 participants, creating high energy and enthusiastic participation.",
             "Strengthened team spirit, discipline, and Rotaract fellowship through healthy competition.",
           ],
+          drivelink:"https://drive.google.com/drive/folders/1UIyZnTWLv5r_EDEe2rnjR5OMuHSPn-cu?usp=drive_link"
         },
         {
           image:
@@ -371,6 +389,7 @@ function Projects() {
             "Boosted participation, confidence, and team spirit among members.",
             "Strengthened bonding, sportsmanship, and Rotaract fellowship through healthy competition.",
           ],
+          drivelink:"https://drive.google.com/drive/folders/1jz9l9zuYHy7N_wVXtD21_VO50v5RXcv6?usp=drive_link"
         },
       ],
     },
@@ -388,6 +407,7 @@ function Projects() {
             "Boosted creativity, teamwork, and quick thinking through fun rebranding challenges.",
             "Built confidence, adaptability, and inter-collegiate bonding in an engaging setting.",
           ],
+          drivelink:"https://drive.google.com/drive/folders/1aMvpRELd88T1Zjs72RRnRlcBmhliuGdF?usp=sharing"
         },
         {
           image:
@@ -399,6 +419,7 @@ function Projects() {
             "Shifted student mindset from idealized startups to realistic, action-driven entrepreneurship.",
             "Inspired confidence to start early, embrace failure, and work on real-world ideas with clarity.",
           ],
+          drivelink:"https://drive.google.com/drive/folders/1yFLpwvthoTQeD23lJbzTe-fw2GUdA53m?usp=drive_link"
         },
       ],
     },
@@ -416,6 +437,7 @@ function Projects() {
             "Boosted confidence in digital design tools, especially Canva, even among beginners",
             "Strengthened creativity, collaboration, and problem-solving under pressure.",
           ],
+          drivelink:"https://drive.google.com/drive/folders/1I9HX7QBg6FvV7GuDSNEmEuayo7cSJq9q?usp=drive_link"
         },
         {
           image:
@@ -427,6 +449,7 @@ function Projects() {
             "Boosted creativity, confidence, and filmmaking exposure among participants.",
             "Raised awareness on civic sense through powerful visual storytelling.",
           ],
+          drivelink:"https://drive.google.com/drive/folders/1FZG1KVZygCWCoYUeIC64QAf4HKyN9Zut?usp=drive_link"
         },
         {
           image:
@@ -438,6 +461,7 @@ function Projects() {
             "Enhanced creativity, storytelling, and visual skills among participants.",
             "Strengthened cultural connection and digital engagement within the Rotaract community",
           ],
+          drivelink:"https://drive.google.com/drive/folders/1HYNxitDcIHT-QHkHLNvp_Hpt40MNtIse?usp=drive_link"
         },
         {
           image:
@@ -449,6 +473,7 @@ function Projects() {
             "Deepened participants’ connection with Mumbai’s culture and heritage.",
             "Enhanced visual storytelling, observation, and creative expression.",
           ],
+          drivelink:"https://drive.google.com/drive/folders/1r4ZrUW4jaoiuSxI_Rtnzc_mDPzTaXEGJ?usp=drive_link"
         },
       ],
     },
@@ -460,8 +485,9 @@ function Projects() {
           image:
             "https://res.cloudinary.com/dtc2xaeaf/image/upload/v1770731425/PXL_20250718_060353784_agpqog.webp",
           title: "PANACHE",
-          objective: "",
-          impact: ["", ""],
+          objective: "To provide a joyful interschool platform that builds creativity, confidence, and leadership among young students",
+          impact: ["Improved confidence, communication, and teamwork skills.", "Encouraged creativity and healthy competition.","Created proud and memorable moments for students and parents."],
+          drivelink:"https://drive.google.com/drive/folders/1akxQXAHd28Pql4S1XhZV1kT8G5jCciw3?usp=drive_link"
         },
         {
           image:
@@ -473,6 +499,7 @@ function Projects() {
             "Boosted creativity, confidence, and filmmaking exposure among participants.",
             "Fostered cultural pride, mutual respect, and appreciation of linguistic diversity.",
           ],
+          drivelink:"https://drive.google.com/drive/folders/1pgoYMC17GCIaL226qK8gMaXjw5o3oAHQ?usp=drive_link"
         },
         {
           image:
@@ -484,6 +511,7 @@ function Projects() {
             "Boosted leadership confidence and role clarity among Interactors.",
             "Encouraged emotional ownership, teamwork, and readiness for installation responsibilities.",
           ],
+          drivelink:"https://drive.google.com/drive/folders/1o4z5X48Nu-fQZXOxyMFZXQUVlt2UWjHA?usp=drive_link"
         },
         {
           image:
@@ -495,6 +523,7 @@ function Projects() {
             "Simplified leadership roles and inspired confidence among students.",
             "Strengthened mentorship, emotional leadership, and the three-tier club bond.",
           ],
+          drivelink:"https://drive.google.com/drive/folders/1o4z5X48Nu-fQZXOxyMFZXQUVlt2UWjHA?usp=drive_link"
         },
         {
           image:
@@ -506,6 +535,7 @@ function Projects() {
             "Brought happiness, confidence, and unforgettable memories to the children.",
             "Strengthened empathy, collaboration, and the true spirit of service among volunteers.",
           ],
+          drivelink:"https://drive.google.com/drive/folders/1likNbUt3TSswRrAjero_Gs6HOcom1CPD?usp=drive_link"
         },
       ],
     },
@@ -523,6 +553,7 @@ function Projects() {
             "Created a shared online space filled with faith, creativity, and festive spirit.",
             "Boosted engagement and emotional connection through meaningful digital storytelling.",
           ],
+          drivelink:"https://drive.google.com/drive/folders/12IDJqYxc8Bnl3l3VxqOk5DBRHQFHHsH2?usp=drive_link"
         },
         {
           image:
@@ -534,6 +565,7 @@ function Projects() {
             "Enhanced coding logic, problem-solving, and consistency among members.",
             "Created high engagement by connecting technical learning with festive spirit and teamwork.",
           ],
+          drivelink:"https://drive.google.com/drive/folders/152_ypUm78Dc0b0Q89Vt0KCTOMKAsSLjl?usp=drive_link"
         },
         {
           image:
@@ -545,6 +577,7 @@ function Projects() {
             "Strengthened emotional bonding and sense of belonging among Rotaractors.",
             "Boosted digital engagement through shared memories and collective reflection.",
           ],
+          drivelink:"https://drive.google.com/drive/folders/1ezFSnNeq4peypptuuECX0_U12xtxxnwf?usp=drive_link"
         },
         {
           image:
@@ -556,6 +589,7 @@ function Projects() {
             "Boosted audience engagement through consistent interactive stories and reels.",
             "Created a warm sense of community, nostalgia, and festive connection online.",
           ],
+          drivelink:"https://drive.google.com/drive/folders/1TjBKp1yWoIdLE_vAA0fXZMW97cNmd9SJ?usp=drive_link"
         },
       ],
     },
@@ -572,6 +606,7 @@ function Projects() {
           impact: [
             "Created a warm, stress-free space that strengthened bonding and emotional connection among members.",
           ],
+          drivelink:"https://drive.google.com/drive/folders/1CO3V06d_H7qbFomOi5eLnIXMe09553kk?usp=drive_link"
         },
         {
           image:
@@ -583,10 +618,11 @@ function Projects() {
             "Created a warm, stress-free environment that strengthened emotional connection and fellowship among members",
             "Encouraged spontaneous participation, collective joy, and a strong sense of belonging within the club.",
           ],
+          drivelink:"https://drive.google.com/drive/folders/1GseJuCSy7ztMh-AtyYYvj3iykzWAwBl4?usp=drive_link"
         },
         {
           image:
-            "https://res.cloudinary.com/dtc2xaeaf/image/upload/v1770731235/IMG_6822_hrvdnh.png",
+            "https://res.cloudinary.com/dtc2xaeaf/image/upload/v1771401008/WhatsApp_Image_2026-02-17_at_1.52.28_AM_zlrjdx.jpg",
           title: "Chai Pe Charcha",
           objective:
             "To create a relaxed and safe space for BODs and Vice Presidents to communicate openly, share feedback, and strengthen teamwork.",
@@ -594,6 +630,7 @@ function Projects() {
             "To create a relaxed and safe space for BODs and Vice Presidents to communicate openly, share feedback, and strengthen teamwork.",
             " Encouraged honest discussions, collaborative problem-solving, and stronger team bonding.",
           ],
+          drivelink:"https://drive.google.com/drive/folders/1IROOFftmtGBNXdUnT6tMQ0oUdSoD6bcV?usp=drive_link"
         },
       ],
     },
@@ -642,8 +679,8 @@ function Projects() {
   return (
     <div className="scroll-smooth bg-white dark:bg-stone-900 min-h-screen">
       {/* HERO — UNCHANGED */}
-      <div className="flex md:min-h-[60vh] justify-center items-center p-6 sm:p-8 relative">
-        <div className="relative w-[70%] h-[80vh]">
+      <div className="flex md:min-h-[60vh] justify-center items-center  sm:p-8 relative ">
+        <div className="relative w-[70%] h-[80vh] ">
           <img
             src="https://res.cloudinary.com/dtc2xaeaf/image/upload/v1756821756/DSC02604_jmaoow.jpg"
             alt="Projects"
@@ -790,18 +827,28 @@ function SliderSection({ section }) {
             <p className="font-semibold text-gray-900 dark:text-stone-100">
               Objective:
             </p>
-            <p className="mb-4 text-sm text-gray-700 dark:text-stone-300">
+            <p className="mb-4 text-[11px] md:text-[16px] text-gray-700 dark:text-stone-300">
               {project.objective}
             </p>
 
-            <p className="font-semibold text-gray-900 dark:text-stone-100">
+            <p className="font-semibold   text-gray-900 dark:text-stone-100">
               Impact:
             </p>
-            <ul className="list-disc list-inside space-y-1 text-gray-700 dark:text-stone-300">
+            <ul className="list-disc list-inside text-[11px] md:text-[15px] space-y-1 text-gray-700 dark:text-stone-300">
               {project.impact.map((point, i) => (
                 <li key={i}>{point}</li>
               ))}
             </ul>
+            <div className="flex items-center justify-end">
+  <a
+    href={project.drivelink}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="mt-3 px-4 py-2 bg-orange-600 text-white rounded-lg hover:bg-orange-700 transition-colors inline-block"
+  >
+    View Drive
+  </a>
+</div>
           </div>
         </div>
 
