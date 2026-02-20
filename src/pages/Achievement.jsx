@@ -33,7 +33,7 @@ export const Achievement = () => {
             modules={[Pagination, Autoplay]}
             spaceBetween={20}
             slidesPerView={1}
-            pagination={{ clickable: true }}
+           
             autoplay={{ delay: 5000 }}
             className="w-full h-full rounded-lg shadow-lg"
           >

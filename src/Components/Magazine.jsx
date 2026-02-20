@@ -1,34 +1,35 @@
-export const Magazine = () => {
-  const magazines = [
-    {
-      id: 1,
-      title: "ROTOVISION 2024",
-      tagline: "Stories of Service, Leadership & Fellowship",
-      cover:
-        "https://res.cloudinary.com/dtlessn0g/image/upload/v1770408172/Valerie_6_1_20260122_230656_0000_taiwh7.png",
-      link: "https://heyzine.com/flip-book/4b3c042686.html",
-      year: "2024",
-    },
-    {
-      id: 2,
-      title: "IMPACT EDITION",
-      tagline: "Ideas That Moved Communities",
-      cover:
-        "https://res.cloudinary.com/dtlessn0g/image/upload/v1770408016/Ixlipse_25-26_20260122_230410_0000_djrwqo.png",
-      link: "#",
-      year: "2025",
-    },
-    {
-      id: 3,
-      title: "ROTOVISION 2024",
-      tagline: "Stories of Service, Leadership & Fellowship",
-      cover:
-        "https://res.cloudinary.com/dtlessn0g/image/upload/v1770822270/IMG-20260211-WA0022.jpg_jnpg4m.jpg",
-      link: "https://heyzine.com/flip-book/4b3c042686.html",
-      year: "2024",
-    },
-  ];
+// 🔥 Move static data OUTSIDE component (prevents recreation every render)
+const magazines = [
+  {
+    id: 1,
+    title: "Valerie",
+    tagline: "Stories of Service, Leadership & Fellowship",
+    cover:
+      "https://res.cloudinary.com/dtc2xaeaf/image/upload/f_auto,q_auto/v1771004255/Valerie_6_1_20260122_230656_0000_taiwh7_1_hsenuy.png",
+    link: "https://heyzine.com/flip-book/4b3c042686.html",
+    year: "2025-26",
+  },
+  {
+    id: 2,
+    title: "Ixlipse",
+    tagline: "Ideas That Moved Communities",
+    cover:
+      "https://res.cloudinary.com/dtc2xaeaf/image/upload/f_auto,q_auto/v1771004320/Ixlipse_25-26_20260122_230410_0000_djrwqo_1_gib3k9.png",
+    link: "https://heyzine.com/flip-book/e65c2c32d9.html",
+    year: "2025-26",
+  },
+  {
+    id: 3,
+    title: "F1 More than a Race",
+    tagline: "Pressure Pace, Pit Stops",
+    cover:
+      "https://res.cloudinary.com/dtc2xaeaf/image/upload/f_auto,q_auto/v1771004388/IMG-20260211-WA0022.jpg_jnpg4m_1_dvfouh.jpg",
+    link: "https://heyzine.com/flip-book/9a613c4d89.html",
+    year: "2025-26",
+  },
+];
 
+export const Magazine = () => {
   return (
     <section className="py-20 px-6 bg-[#faf7f2] dark:bg-[#111111] transition-colors duration-500">
       
@@ -55,11 +56,12 @@ export const Magazine = () => {
               transition-all duration-500
             "
           >
-            
             <div className="relative aspect-[3/4] p-4 rounded-[20px] overflow-hidden bg-white dark:bg-[#1b1b1b]">
               <img
                 src={mag.cover}
                 alt={mag.title}
+                loading="lazy"          // ✅ Lazy load
+                decoding="async"        // ✅ Non-blocking decode
                 className="
                   w-full h-full
                   object-contain
