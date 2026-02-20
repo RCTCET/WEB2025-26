@@ -5,13 +5,13 @@ import { Outlet } from 'react-router-dom';
 
 const Layout = () => {
   return (
-    <>
+    <div className="min-h-screen flex flex-col bg-white dark:bg-[#1a1410]">
       <Header />
-      <main>
-        <Outlet /> {/* This is where child routes will be rendered */}
+      <main className="flex-grow">
+        <Outlet />
       </main>
       <Footer />
-    </>
+    </div>
   );
 };
 

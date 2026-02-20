@@ -23,19 +23,18 @@ const AboutSection = () => {
     <div className="relative bg-white dark:bg-stone-900">
       {/* Background Image */}
       <LazyLoadImage
-        src="https://res.cloudinary.com/dtc2xaeaf/image/upload/v1756746747/Baseline_grid_bg_loaafk.webp"
+        src="../Public/Baseline grid bg.svg"
         alt="Baseline Grid Background"
-        className="absolute inset-0 w-full h-full object-cover z-0 opacity-100 dark:opacity-30"
+        className="absolute inset-0 w-full h-full object-cover z-0 opacity-100 dark:opacity-30 top-7"
       />
 
       {/* Foreground */}
       <div className="relative z-10 w-full h-full flex flex-col items-center justify-center">
-        {/* Top Logo */}
-        <LazyLoadImage
-          src="https://res.cloudinary.com/dtc2xaeaf/image/upload/v1757941741/About_Us_cyojzm.webp"
-          alt="About Us Logo"
-          className="w-[20vw] mt-14 mb-6"
-        />
+<div className="mt-14 mb-6 w-[20vw] mx-auto text-center">
+  <h1 className="text-4xl md:text-8xl font-bold text-orange-500">
+    About Us
+  </h1>
+</div>
 
         {/* Center area */}
         <div className="w-full flex flex-col md:flex-row items-center justify-center gap-6 px-4">

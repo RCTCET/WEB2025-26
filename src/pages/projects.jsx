@@ -456,13 +456,6 @@ function Projects() {
       projects: [
         {
           image:
-            "https://res.cloudinary.com/dtc2xaeaf/image/upload/v1770731425/PXL_20250718_060353784_agpqog.webp",
-          title: "PANACHE",
-          objective: "",
-          impact: ["", ""],
-        },
-        {
-          image:
             "https://res.cloudinary.com/dtc2xaeaf/image/upload/v1770731439/IMG_7424_ivwn9z.webp",
           title: "Multilingual Elocution Competition",
           objective:
@@ -504,6 +497,13 @@ function Projects() {
             "Brought happiness, confidence, and unforgettable memories to the children.",
             "Strengthened empathy, collaboration, and the true spirit of service among volunteers.",
           ],
+        },
+        {
+          image:
+            "https://res.cloudinary.com/dtc2xaeaf/image/upload/v1770731425/PXL_20250718_060353784_agpqog.webp",
+          title: "PANACHE",
+          objective: "",
+          impact: ["", ""],
         },
       ],
     },
@@ -641,11 +641,11 @@ function Projects() {
     <div className="scroll-smooth bg-white dark:bg-stone-900 min-h-screen">
       {/* HERO — UNCHANGED */}
       <div className="flex md:min-h-[60vh] justify-center items-center p-6 sm:p-8 relative">
-        <div className="relative w-[70%] h-[80vh]">
+        <div className="relative w-[80%] h-[90vh]">
           <img
             src="https://res.cloudinary.com/dtc2xaeaf/image/upload/v1756821756/DSC02604_jmaoow.jpg"
             alt="Projects"
-            className="h-full w-full object-cover object-[center_95%] rounded-xl"
+            className="h-full w-full object-cover object-[center_100%] rounded-xl"
           />
           <div className="absolute inset-0 bg-black/50 rounded-xl" />
           <div className="absolute inset-0 flex flex-col justify-center items-center text-center text-white px-6">
