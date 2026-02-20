@@ -27,4 +27,21 @@ html {
   scrollbar-width: none;
 }
 
+/* Move pagination below card */
+.achievement-swiper .swiper-pagination {
+  bottom: -5px !important;
+}
 
+/* Style bullets */
+.achievement-swiper .swiper-pagination-bullet {
+  background: rgba(255, 255, 255, 0.7);
+  width: 10px;
+  height: 10px;
+  opacity: 1;
+}
+
+.achievement-swiper .swiper-pagination-bullet-active {
+  background: #f97316;
+  width: 14px;
+  height: 14px;
+}

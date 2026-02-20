@@ -49,32 +49,55 @@ const Projectachievement = () => {
   return (
     <>
       {/* Project Achievement */}
-      <h2 className="text-4xl font-extrabold bg-gradient-to-r from-orange-600 to-orange-400 bg-clip-text text-transparent text-center my-[20px]">
-        Project Achievement
-      </h2>
+ <h2 className="text-4xl font-extrabold 
+               bg-gradient-to-r from-orange-600 to-orange-400 
+               bg-clip-text text-transparent 
+               text-center my-[20px]">
+  Project Achievement
+</h2>
 
-      <div className="w-full mt-[20px] bg-[url('https://www.rc.tcetmumbai.in/Achievement/Baseline%20grid%20bg.svg')] bg-cover bg-center p-6 flex justify-center mb-[40px]">
-        <div className="grid grid-cols-1 gap-6 max-w-4xl w-full place-items-center">
-          <div className="bg-[#FFEFD9] p-4 rounded-lg shadow-[0_8px_20px_rgba(0,0,0,0.25)] flex flex-col items-center text-center max-w-sm w-full">
-            {/* Image */}
-            <div className="w-full h-[250px] flex items-center justify-center rounded-lg mb-4 overflow-hidden ">
-              <img
-                src="https://res.cloudinary.com/dtc2xaeaf/image/upload/v1756821844/DSC02741_oocb84.jpg"
-                alt="Project Acer"
-                className="max-h-full max-w-full object-contain"
-              />
-            </div>
+<div className="w-full mt-[20px] 
+                bg-white dark:bg-[#1a1410]
+                bg-[url('https://www.rc.tcetmumbai.in/Achievement/Baseline%20grid%20bg.svg')] 
+                bg-cover bg-center 
+                p-6 flex justify-center mb-[40px] 
+                transition-colors duration-300">
 
-            {/* Title */}
-            <h3 className="text-xl font-bold text-orange-600">Project Acer</h3>
+  <div className="grid grid-cols-1 gap-6 max-w-4xl w-full place-items-center">
 
-            {/* Description */}
-            <p className="text-gray-700 mt-2">
-              Outstanding Social Media Campaign – Young Entrepreneurs
-            </p>
-          </div>
-        </div>
+    <div className="bg-[#FFEFD9] dark:bg-[#1a1410] 
+                    p-4 rounded-lg 
+                    shadow-[0_8px_20px_rgba(0,0,0,0.25)] 
+                    dark:shadow-[0_8px_20px_rgba(0,0,0,0.6)] 
+                    flex flex-col items-center text-center 
+                    max-w-sm w-full 
+                    transition-colors duration-300">
+
+      {/* Image */}
+      <div className="w-full h-[250px] flex items-center justify-center 
+                      rounded-lg mb-4 overflow-hidden 
+                      bg-white dark:bg-[#1f1813] 
+                      transition-colors duration-300">
+        <img
+          src="https://res.cloudinary.com/dtc2xaeaf/image/upload/v1756821844/DSC02741_oocb84.jpg"
+          alt="Project Acer"
+          className="max-h-full max-w-full object-contain"
+        />
       </div>
+
+      {/* Title */}
+      <h3 className="text-xl font-bold text-orange-600">
+        Project Acer
+      </h3>
+
+      {/* Description */}
+      <p className="text-gray-700 dark:text-gray-300 mt-2">
+        Outstanding Social Media Campaign – Young Entrepreneurs
+      </p>
+
+    </div>
+  </div>
+</div>
 
       {/* Crowns of Quarter */}
       <h2 className="text-4xl font-extrabold bg-gradient-to-r from-orange-600 to-orange-400 bg-clip-text text-transparent text-center my-[20px]">
