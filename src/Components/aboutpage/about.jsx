@@ -23,7 +23,7 @@ const AboutSection = () => {
     <div className="relative bg-white dark:bg-stone-900">
       {/* Background Image */}
       <LazyLoadImage
-        src="../Public/Baseline grid bg.svg"
+        src="https://res.cloudinary.com/dtc2xaeaf/image/upload/v1771630629/Baseline_grid_bg_zywtov.svg"
         alt="Baseline Grid Background"
         className="absolute inset-0 w-full h-full object-cover z-0 opacity-100 dark:opacity-30 top-7"
       />

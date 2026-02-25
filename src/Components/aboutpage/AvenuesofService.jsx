@@ -77,8 +77,9 @@ export const OurJourney=()=>{
             <LazyLoadImage
                 src={
                     theme === 'dark'
-                    ? '../Public/Our Journey white.svg'
-                    : '../Public/Our Journey.svg'
+                    ? 'https://res.cloudinary.com/dtc2xaeaf/image/upload/v1771993398/Our_Journey_white_cszudo.svg'
+                    : 'https://res.cloudinary.com/dtc2xaeaf/image/upload/v1771630641/Our_Journey_enbhey.svg'
+                    
                 }
                 alt="Our Journey"
             />
