@@ -680,7 +680,7 @@ function Projects() {
     <div className="scroll-smooth bg-white dark:bg-stone-900 min-h-screen">
       {/* HERO — UNCHANGED */}
       <div className="flex md:min-h-[60vh] justify-center items-center  sm:p-8 relative ">
-        <div className="relative w-[70%] h-[80vh] ">
+        <div className="relative w-[80%] h-[90vh] ">
           <img
             src="https://res.cloudinary.com/dtc2xaeaf/image/upload/v1756821756/DSC02604_jmaoow.jpg"
             alt="Projects"

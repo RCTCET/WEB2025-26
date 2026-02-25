@@ -1,5 +1,6 @@
 // import { useState } from 'react';
-// import { LazyLoadImage } from 'react-lazy-load-image-component';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import { useTheme } from '../../hooks/useTheme';
 
 // const slides = [
 //     { id: 1, title: "Club Service Team", description: "The Club Service team of the Rotaract Club of TCET is the backbone of our vibrant community, dedicated to fostering fellowship and ensuring the smooth functioning of the club. Through creative activities and events, they bring members together, strengthen bonds, and create a supportive environment where everyone feels connected and valued. This team is the heart of our club, turning every moment into an opportunity for growth, fun, and friendship.", imageUrl: "/About us/Club Service -Board of directors _converted.avif"},
@@ -68,11 +69,20 @@
 
 
 export const OurJourney=()=>{
+    const { theme } = useTheme();
+
     return(
         <>
-        <div className="mb-[10px]" >
-            <img src="https://res.cloudinary.com/dtc2xaeaf/image/upload/v1756916023/Timeline_tc2eex.png"  />
-
+        <div className="mb-[10px] flex justify-center items-center" >
+            <LazyLoadImage
+                src={
+                    theme === 'dark'
+                    ? 'https://res.cloudinary.com/dtc2xaeaf/image/upload/v1771993398/Our_Journey_white_cszudo.svg'
+                    : 'https://res.cloudinary.com/dtc2xaeaf/image/upload/v1771630641/Our_Journey_enbhey.svg'
+                    
+                }
+                alt="Our Journey"
+            />
         </div>
         
         
