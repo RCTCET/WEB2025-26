@@ -2,7 +2,7 @@ import axios from "axios";
 import { useEffect, useMemo, useRef, useState } from "react";
 import ReactMarkdown from "react-markdown";
 
-const BOT_URL = "https://rotobot.onrender.com/chat";
+const BOT_URL = "http://localhost:3000/chat";
 
 export const Chatbot = () => {
   const [isChatOpen, setChatOpen] = useState(false);
@@ -48,20 +48,6 @@ export const Chatbot = () => {
     messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
   }, [messages, isLoading]);
 
-  const getLastBotReply = () => {
-    for (let i = messages.length - 1; i >= 0; i -= 1) {
-      if (messages[i].role === "bot") return messages[i].content;
-    }
-    return "";
-  };
-
-  const buildPrompt = (question) => {
-    const lastResponse = getLastBotReply();
-    return lastResponse
-      ? `Previous bot response:\n${lastResponse}\n\nCurrent question:\n${question}`
-      : question;
-  };
-
   const normalizeBotText = (data) => {
     if (typeof data === "string") return data;
     if (!data || typeof data !== "object") return "No response received.";
@@ -82,21 +68,28 @@ export const Chatbot = () => {
     setInput("");
     setIsLoading(true);
 
-    const prompt = buildPrompt(question);
-    const requestUrl = `${BOT_URL}/${(prompt)}`;
+    const formattedHistory = messages.map((msg) => ({
+      role: msg.role === "bot" ? "assistant" : "user",
+      content: msg.content,
+    }));
+
+    const payload = {
+      query: question,
+      history: formattedHistory,
+    };
 
     setRequestLog((prev) => [
       ...prev,
       {
         question,
-        prompt,
-        endpoint: requestUrl,
+        payload,
+        endpoint: BOT_URL,
         requestedAt: new Date().toISOString(),
       },
     ]);
 
     try {
-      const response = await axios.get(requestUrl);
+      const response = await axios.post(BOT_URL, payload);
       const botText = normalizeBotText(response.data);
       setMessages((prev) => [...prev, { role: "bot", content: botText }]);
     } catch (error) {

@@ -1,4 +1,4 @@
-import { useState, memo, useMemo, lazy, Suspense } from "react";
+import { useState, useEffect, memo, useMemo, lazy, Suspense } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { motion } from "framer-motion";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -11,52 +11,57 @@ import "swiper/css/navigation";
 const Chatbot = lazy(() => import("./Chatbot"));
 
 
-const BG = "f_auto,q_auto:eco,w_1400,dpr_auto,c_fill,g_auto";
-const CARD = "f_auto,q_auto:eco,w_500,dpr_auto,c_fill,g_auto";
+const BG_DESKTOP = "f_auto,q_auto:low,w_1400,c_fill,g_auto";
+const BG_MOBILE = "f_auto,q_auto:low,w_600,c_fill,g_auto";
+const CARD = "f_auto,q_auto:eco,w_400,c_fill,g_auto";
 
 
-const images = [
+const imagesData = [
   {
     title: "Jashn-E- 3141",
-    bg: `https://res.cloudinary.com/dtc2xaeaf/image/upload/${BG}/v1757943827/Copy_of_IMG_4190_ayzbil_lplixh_rd534g.webp`,
-    card: `https://res.cloudinary.com/dtc2xaeaf/image/upload/${CARD}/v1757943827/Copy_of_IMG_4190_ayzbil_lplixh_rd534g.webp`
+    id: "v1757943827/Copy_of_IMG_4190_ayzbil_lplixh_rd534g.webp"
   },
   {
     title: "Visual Velocity 2.0",
-    bg: `https://res.cloudinary.com/dtc2xaeaf/image/upload/${BG}/v1757943830/IMG_7581_xlm8wx_lnj4jq_ufiz7c.webp`,
-    card: `https://res.cloudinary.com/dtc2xaeaf/image/upload/${CARD}/v1757943830/IMG_7581_xlm8wx_lnj4jq_ufiz7c.webp`
+    id: "v1757943830/IMG_7581_xlm8wx_lnj4jq_ufiz7c.webp"
   },
   {
     title: "Aara night 25-26",
-    bg: `https://res.cloudinary.com/dtc2xaeaf/image/upload/${BG}/v1757943837/IMG_2044_h3kady_vbe8iv_s4bl9w.webp`,
-    card: `https://res.cloudinary.com/dtc2xaeaf/image/upload/${CARD}/v1757943837/IMG_2044_h3kady_vbe8iv_s4bl9w.webp`
+    id: "v1757943837/IMG_2044_h3kady_vbe8iv_s4bl9w.webp"
   },
   {
     title: "Rotaract's Day Out",
-    bg: `https://res.cloudinary.com/dtc2xaeaf/image/upload/${BG}/v1757943940/Copy_of_IMG_0420_wdpng4_gpbtct.jpg`,
-    card: `https://res.cloudinary.com/dtc2xaeaf/image/upload/${CARD}/v1757943940/Copy_of_IMG_0420_wdpng4_gpbtct.jpg`
+    id: "v1757943940/Copy_of_IMG_0420_wdpng4_gpbtct.jpg"
   },
   {
     title: "Monsoon Match Day 2.0",
-    bg: `https://res.cloudinary.com/dtc2xaeaf/image/upload/${BG}/v1757943826/Copy_of_IMG_1446_1_zwesqm_g41sxi.jpg`,
-    card: `https://res.cloudinary.com/dtc2xaeaf/image/upload/${CARD}/v1757943826/Copy_of_IMG_1446_1_zwesqm_g41sxi.jpg`
+    id: "v1757943826/Copy_of_IMG_1446_1_zwesqm_g41sxi.jpg"
   },
   {
     title: "Kalakriti 2.0",
-    bg: `https://res.cloudinary.com/dtc2xaeaf/image/upload/${BG}/v1757943987/Copy_of_IMG20250825165248_kvd3wk_w6imtn.jpg`,
-    card: `https://res.cloudinary.com/dtc2xaeaf/image/upload/${CARD}/v1757943987/Copy_of_IMG20250825165248_kvd3wk_w6imtn.jpg`
+    id: "v1757943987/Copy_of_IMG20250825165248_kvd3wk_w6imtn.jpg"
   },
   {
     title: "Panache",
-    bg: `https://res.cloudinary.com/dtc2xaeaf/image/upload/${BG}/v1757943825/PXL_20250718_060353784_i7fthn_jxd25r.jpg`,
-    card: `https://res.cloudinary.com/dtc2xaeaf/image/upload/${CARD}/v1757943825/PXL_20250718_060353784_i7fthn_jxd25r.jpg`
+    id: "v1757943825/PXL_20250718_060353784_i7fthn_jxd25r.jpg"
   }
 ];
 
 export default function RotaractClubLayout() {
   const [bgIndex, setBgIndex] = useState(0);
+  const [isMobile, setIsMobile] = useState(false);
 
-  const bgUrl = useMemo(() => images[bgIndex].bg, [bgIndex]);
+  useEffect(() => {
+    const checkMobile = () => setIsMobile(window.innerWidth < 768);
+    checkMobile(); // Initial check
+    window.addEventListener("resize", checkMobile, { passive: true });
+    return () => window.removeEventListener("resize", checkMobile);
+  }, []);
+
+  const bgUrl = useMemo(() => {
+    const transform = isMobile ? BG_MOBILE : BG_DESKTOP;
+    return `https://res.cloudinary.com/dtc2xaeaf/image/upload/${transform}/${imagesData[bgIndex].id}`;
+  }, [bgIndex, isMobile]);
 
   return (
     <div className="relative h-screen max-h-screen rounded-b-3xl w-full overflow-hidden">
@@ -109,9 +114,9 @@ export default function RotaractClubLayout() {
             }}
             onSlideChange={(s) => setBgIndex(s.realIndex)}
           >
-            {images.map((img, i) => (
+            {imagesData.map((img, i) => (
               <SwiperSlide key={i}>
-                <MemoCard img={img} />
+                <MemoCard title={img.title} id={img.id} />
               </SwiperSlide>
             ))}
           </Swiper>
@@ -135,20 +140,23 @@ export default function RotaractClubLayout() {
 }
 
 
-const MemoCard = memo(({ img }) => (
-  <div className="rounded-2xl border border-white/20 bg-white/90 shadow-xl overflow-hidden">
-    <img
-      src={img.card}
-      alt={img.title}
-      width="500"
-      height="350"
-      loading="lazy"
-      decoding="async"
-      className="h-32 sm:h-40 w-full object-cover"
-    />
-    <div className="p-3 font-semibold">{img.title}</div>
-  </div>
-));
+const MemoCard = memo(({ title, id }) => {
+  const cardUrl = `https://res.cloudinary.com/dtc2xaeaf/image/upload/${CARD}/${id}`;
+  return (
+    <div className="rounded-2xl border border-white/20 bg-white/90 shadow-xl overflow-hidden">
+      <img
+        src={cardUrl}
+        alt={title}
+        width="400"
+        height="300"
+        loading="lazy"
+        decoding="async"
+        className="h-32 sm:h-40 w-full object-cover"
+      />
+      <div className="p-3 font-semibold">{title}</div>
+    </div>
+  );
+});
 
 
 const IconButton = memo(({ children }) => (
