@@ -6,42 +6,42 @@ import { Autoplay, Keyboard, Pagination, Navigation } from "swiper/modules";
 
 // Data arrays
 const images = [
-  "https://res.cloudinary.com/dtc2xaeaf/image/upload/v1757658081/4_qnnrol.png",
-  "https://res.cloudinary.com/dtc2xaeaf/image/upload/v1757658081/5_n50mr1.png",
-  "https://res.cloudinary.com/dtc2xaeaf/image/upload/v1757658080/6_nicloc.png",
-  "https://res.cloudinary.com/dtc2xaeaf/image/upload/v1757658081/7_ojodos.png",
-  "https://res.cloudinary.com/dtc2xaeaf/image/upload/v1757658081/8_owtkof.png",
-  "https://res.cloudinary.com/dtc2xaeaf/image/upload/v1757658081/9_dnzkos.png",
-  "https://res.cloudinary.com/dtc2xaeaf/image/upload/v1757658082/10_iixlzy.png",
-  "https://res.cloudinary.com/dtc2xaeaf/image/upload/v1757658082/11_cg0n6o.png",
-  "https://res.cloudinary.com/dtc2xaeaf/image/upload/v1757658080/12_j8lelc.png",
+  "https://res.cloudinary.com/dtc2xaeaf/image/upload/f_auto,q_auto:eco,w_800,c_limit/v1757658081/4_qnnrol.png",
+  "https://res.cloudinary.com/dtc2xaeaf/image/upload/f_auto,q_auto:eco,w_800,c_limit/v1757658081/5_n50mr1.png",
+  "https://res.cloudinary.com/dtc2xaeaf/image/upload/f_auto,q_auto:eco,w_800,c_limit/v1757658080/6_nicloc.png",
+  "https://res.cloudinary.com/dtc2xaeaf/image/upload/f_auto,q_auto:eco,w_800,c_limit/v1757658081/7_ojodos.png",
+  "https://res.cloudinary.com/dtc2xaeaf/image/upload/f_auto,q_auto:eco,w_800,c_limit/v1757658081/8_owtkof.png",
+  "https://res.cloudinary.com/dtc2xaeaf/image/upload/f_auto,q_auto:eco,w_800,c_limit/v1757658081/9_dnzkos.png",
+  "https://res.cloudinary.com/dtc2xaeaf/image/upload/f_auto,q_auto:eco,w_800,c_limit/v1757658082/10_iixlzy.png",
+  "https://res.cloudinary.com/dtc2xaeaf/image/upload/f_auto,q_auto:eco,w_800,c_limit/v1757658082/11_cg0n6o.png",
+  "https://res.cloudinary.com/dtc2xaeaf/image/upload/f_auto,q_auto:eco,w_800,c_limit/v1757658080/12_j8lelc.png",
 ];
 
 const achievementsSlider = [
   {
     id: 1,
     image:
-      "https://res.cloudinary.com/dtc2xaeaf/image/upload/v1756996211/IMG_7333_tqqivm_nhpwrj.jpg",
+      "https://res.cloudinary.com/dtc2xaeaf/image/upload/f_auto,q_auto:eco,w_800,c_limit/v1756996211/IMG_7333_tqqivm_nhpwrj.jpg",
   },
   {
     id: 2,
     image:
-      "https://res.cloudinary.com/dtc2xaeaf/image/upload/v1756996210/Copy_of_IMG_2045_ovdcd4_pn8vqx.jpg",
+      "https://res.cloudinary.com/dtc2xaeaf/image/upload/f_auto,q_auto:eco,w_800,c_limit/v1756996210/Copy_of_IMG_2045_ovdcd4_pn8vqx.jpg",
   },
   {
     id: 3,
     image:
-      "https://res.cloudinary.com/dtc2xaeaf/image/upload/v1756996209/IMG_7404_bc1gjb_udmstq_godqvw.jpg",
+      "https://res.cloudinary.com/dtc2xaeaf/image/upload/f_auto,q_auto:eco,w_800,c_limit/v1756996209/IMG_7404_bc1gjb_udmstq_godqvw.jpg",
   },
   {
     id: 4,
     image:
-      "https://res.cloudinary.com/dtc2xaeaf/image/upload/v1756996208/IMG_7329_qffgwb_lvl2yg.jpg",
+      "https://res.cloudinary.com/dtc2xaeaf/image/upload/f_auto,q_auto:eco,w_800,c_limit/v1756996208/IMG_7329_qffgwb_lvl2yg.jpg",
   },
   {
     id: 5,
     image:
-      "https://res.cloudinary.com/dtc2xaeaf/image/upload/v1756996208/Copy_of_IMG_2049_oglzrf_wuqkxo.jpg",
+      "https://res.cloudinary.com/dtc2xaeaf/image/upload/f_auto,q_auto:eco,w_800,c_limit/v1756996208/Copy_of_IMG_2049_oglzrf_wuqkxo.jpg",
   },
 ];
 
@@ -79,7 +79,7 @@ const Projectachievement = () => {
                       bg-white dark:bg-[#1f1813] 
                       transition-colors duration-300">
         <img
-          src="https://res.cloudinary.com/dtc2xaeaf/image/upload/v1756821844/DSC02741_oocb84.jpg"
+          src="https://res.cloudinary.com/dtc2xaeaf/image/upload/f_auto,q_auto:eco,w_800,c_limit/v1756821844/DSC02741_oocb84.jpg"
           alt="Project Acer"
           className="max-h-full max-w-full object-contain"
         />

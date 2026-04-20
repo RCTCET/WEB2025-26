@@ -10,17 +10,29 @@ function MomentsFrame() {
 
 function BgImg() {
     return(
-        <div className="flex justify-center flex-col items-center relative top-10 sm:top-24 lg:top-36 h-fit">
-            <img src="https://res.cloudinary.com/dtc2xaeaf/image/upload/f_auto,q_auto:low,w_800/v1756826078/International-Day-of-Friendship-Puzzle-Colouring-Poster-black-and-white-RGB_ver_3_1_bfs140.png" alt="friendsBg" loading="lazy" decoding="async"/>
-            <HeadText/>
+        <div className="flex justify-center w-full mt-4 sm:mt-12 lg:mt-20 mb-8 overflow-hidden px-4">
+            <div className="relative w-full max-w-[1200px] flex items-center justify-center rounded-xl overflow-hidden drop-shadow-sm">
+                <img 
+                    src="https://res.cloudinary.com/dtc2xaeaf/image/upload/f_auto,q_auto:eco,w_1200/v1756826078/International-Day-of-Friendship-Puzzle-Colouring-Poster-black-and-white-RGB_ver_3_1_bfs140.png" 
+                    alt="Moments Background Banner" 
+                    className="w-full h-[150px] sm:h-[200px] lg:h-[300px] object-cover opacity-90 dark:opacity-50"
+                    loading="lazy" 
+                    decoding="async"
+                />
+                <div className="absolute inset-0 flex items-center justify-center z-10 p-4">
+                    <HeadText/>
+                </div>
+            </div>
         </div>
     )
 }
 
 function HeadText() {
     return(
-        <div className="absolute lg:top-[165px] px-8">
-            <h1 className="text-center text-xl md:text-4xl font-bold mb-6 bg-gradient-to-b from-amber-800 via-orange-500 to-yellow-400 dark:from-yellow-600 dark:via-yellow-400 dark:to-yellow-200 bg-clip-text text-transparent">Moments to Remember</h1>
+        <div className="drop-shadow-[0_2px_2px_rgba(255,255,255,0.8)] dark:drop-shadow-[0_4px_4px_rgba(0,0,0,0.9)]">
+            <h1 className="text-center text-3xl sm:text-5xl lg:text-7xl font-extrabold tracking-tight bg-gradient-to-b from-amber-700 via-orange-600 to-yellow-500 dark:from-yellow-400 dark:via-yellow-300 dark:to-white bg-clip-text text-transparent">
+                Moments to Remember
+            </h1>
         </div>
     )
 }

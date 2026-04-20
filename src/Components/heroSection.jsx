@@ -1,6 +1,6 @@
 import { useState, useEffect, memo, useMemo, lazy, Suspense } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation } from "swiper/modules";
 
@@ -31,29 +31,31 @@ const imagesData = [
   },
   {
     title: "Rotaract's Day Out",
-    id: "v1757943940/Copy_of_IMG_0420_wdpng4_gpbtct.jpg"
+    id: "v1757943940/Copy_of_IMG_0420_wdpng4_gpbtct.webp"
   },
   {
     title: "Monsoon Match Day 2.0",
-    id: "v1757943826/Copy_of_IMG_1446_1_zwesqm_g41sxi.jpg"
+    id: "v1757943826/Copy_of_IMG_1446_1_zwesqm_g41sxi.webp"
   },
   {
     title: "Kalakriti 2.0",
-    id: "v1757943987/Copy_of_IMG20250825165248_kvd3wk_w6imtn.jpg"
+    id: "v1757943987/Copy_of_IMG20250825165248_kvd3wk_w6imtn.webp"
   },
   {
     title: "Panache",
-    id: "v1757943825/PXL_20250718_060353784_i7fthn_jxd25r.jpg"
+    id: "v1757943825/PXL_20250718_060353784_i7fthn_jxd25r.webp"
   }
 ];
 
 export default function RotaractClubLayout() {
   const [bgIndex, setBgIndex] = useState(0);
-  const [isMobile, setIsMobile] = useState(false);
+  const [isMobile, setIsMobile] = useState(typeof window !== "undefined" ? window.innerWidth < 768 : false);
+  const [isInitialRender, setIsInitialRender] = useState(true);
 
   useEffect(() => {
+    setIsInitialRender(false);
     const checkMobile = () => setIsMobile(window.innerWidth < 768);
-    checkMobile(); // Initial check
+    checkMobile(); // Check on mount to catch any edge cases
     window.addEventListener("resize", checkMobile, { passive: true });
     return () => window.removeEventListener("resize", checkMobile);
   }, []);
@@ -67,13 +69,22 @@ export default function RotaractClubLayout() {
     <div className="relative h-screen max-h-screen rounded-b-3xl w-full overflow-hidden">
 
       {/* Background */}
-      <motion.div
+      {/* <motion.div
         key={bgIndex}
-        initial={{ opacity: 0 }}
+        initial={{ opacity: isInitialRender ? 1 : 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 0.6 }}
         className="absolute inset-0 bg-cover bg-center z-0 will-change-opacity"
         style={{ backgroundImage: `url(${bgUrl})` }}
+      /> */}
+      <img
+        key={bgIndex}
+        src={bgUrl}
+        alt=""
+        fetchPriority="high"
+        loading="eager"
+        decoding="async"
+        className="absolute inset-0 w-full h-full object-cover z-0"
       />
 
       <div className="absolute inset-0 bg-black/60 z-10" />
@@ -96,7 +107,7 @@ export default function RotaractClubLayout() {
           </h1>
         </div>
 
-       
+
         <div className="w-full lg:w-2/3 relative z-30">
           <Swiper
             modules={[Autoplay, Navigation]}
