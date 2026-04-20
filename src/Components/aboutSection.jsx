@@ -9,7 +9,7 @@ const Anantya = () => {
           <div 
             className="absolute inset-0 bg-cover bg-[center_40%] opacity-10 dark:opacity-5"
             style={{
-              backgroundImage: "url('https://res.cloudinary.com/dtc2xaeaf/image/upload/v1756840156/IMG_3032_2_ibiefc.jpg')",
+              backgroundImage: "url('https://res.cloudinary.com/dtc2xaeaf/image/upload/f_auto,q_auto:eco,w_800,c_limit/v1756840156/IMG_3032_2_ibiefc.jpg')",
             }}
           ></div>
           
@@ -45,7 +45,7 @@ const Anantya = () => {
       <div className="flex flex-col md:flex-row items-center md:items-start max-w-7xl mx-auto p-4 text-justify mt-10 mb-16 bg-white dark:bg-stone-900">
         <div className="md:w-1/3 flex items-center justify-center">
           <img 
-            src='https://res.cloudinary.com/dtc2xaeaf/image/upload/v1756759766/theme_logo_anantya_bebpcc.png'
+            src='https://res.cloudinary.com/dtc2xaeaf/image/upload/f_auto,q_auto:eco,w_800,c_limit/v1756759766/theme_logo_anantya_bebpcc.png'
             alt="Anantya" 
             className="w-full h-50 object-cover"
             loading={"lazy"}
