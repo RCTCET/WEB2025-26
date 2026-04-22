@@ -15,7 +15,6 @@
     "firebase": "^11.3.1",
     "framer-motion": "^12.23.12",
     "lucide-react": "^0.542.0",
-    "my-react-app": "file:",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-helmet": "^6.1.0",
