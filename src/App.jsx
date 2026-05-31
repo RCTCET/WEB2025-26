@@ -1,5 +1,5 @@
 
-import { Suspense, lazy } from 'react';
+import { Suspense, lazy, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Layout from './layout';
 import { ThemeProvider } from './context/themeContext';
@@ -17,6 +17,13 @@ const FeedBack = lazy(() => import('./Components/withBackend/FeedBack'));
 
 
 function App() {
+  useEffect(() => {
+    // Coldstart the backend
+    fetch('https://rc-chatbot.onrender.com/activate')
+      .then(() => console.log('Backend wake-up initiated'))
+      .catch(err => console.error('Failed to wake up backend:', err));
+  }, []);
+
   return (
     <ThemeProvider>
     <Router basename="/">
