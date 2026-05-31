@@ -2,7 +2,7 @@ import axios from "axios";
 import { useEffect, useMemo, useRef, useState } from "react";
 import ReactMarkdown from "react-markdown";
 
-const BOT_URL = "http://localhost:3000/chat";
+const BOT_URL = "https://rc-chatbot.onrender.com/chat";
 
 export const Chatbot = () => {
   const [isChatOpen, setChatOpen] = useState(false);
@@ -35,14 +35,14 @@ export const Chatbot = () => {
   // }, [isChatOpen]);
 
   useEffect(() => {
-  if (!isChatOpen) {
-    const timer = setInterval(() => {
-      setShowHint(prev => !prev);
-    }, 5000);
+    if (!isChatOpen) {
+      const timer = setInterval(() => {
+        setShowHint(prev => !prev);
+      }, 5000);
 
-    return () => clearInterval(timer);
-  }
-}, [isChatOpen]);
+      return () => clearInterval(timer);
+    }
+  }, [isChatOpen]);
 
   useEffect(() => {
     messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
@@ -212,16 +212,14 @@ export const Chatbot = () => {
               {messages.map((msg, index) => (
                 <div
                   key={`${msg.role}-${index}`}
-                  className={`flex ${
-                    msg.role === "user" ? "justify-end" : "justify-start"
-                  }`}
+                  className={`flex ${msg.role === "user" ? "justify-end" : "justify-start"
+                    }`}
                 >
                   <div
-                    className={`max-w-[85%] rounded-2xl p-3 shadow ${
-                      msg.role === "user"
+                    className={`max-w-[85%] rounded-2xl p-3 shadow ${msg.role === "user"
                         ? "bg-orange-500 text-white"
                         : "bg-white/90 text-gray-800"
-                    }`}
+                      }`}
                   >
                     <div className="prose prose-sm max-w-none prose-p:my-1 prose-pre:whitespace-pre-wrap">
                       <ReactMarkdown>{msg.content}</ReactMarkdown>
